@@ -1,0 +1,16 @@
+.temp-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8 em;
+    margin-top: 20%;
+    vertical-align: middle;
+    text-align: center;
+} 
+
+.temp-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 20%;
+    animation: rotation 2s infinite linear;
+}
