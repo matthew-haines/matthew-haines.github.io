@@ -1,16 +1,35 @@
-.temp-header {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 8 em;
-    margin-top: 20%;
-    vertical-align: middle;
-    text-align: center;
-} 
+* {
+    text-decoration: none;
+}
 
-.temp-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.text-wrapper {
     margin-top: 5%;
-    width: 20%;
-    animation: rotation 2s infinite linear;
+    margin-left: 5%;
+}
+
+.text-wrapper p {
+    color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.icon-wrapper {
+    background-color: white;
+    border-radius: 10px;
+    height: 2.5em;
+    width: 2.5em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-wrapper i {
+    font-size: 2em;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fa-github {
+    color: #1c1c1c;
 }
